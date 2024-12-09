@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VibeCenter</title>
+        <link rel="icon" href="VBLogo.png" type="image/png"><!-- This puts a logo on the browser tab-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="VBLogo.png">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="#events-shortcut">Events</a>
+                <a href="Register.html#registrationID">Register</a>
+                <a href="#about-us">About us</a>
+            </nav>
+        </header>
+
+
+        <section class="welcome animate__animated animate__zoomIn animate__delay-0.99s">
+             <h1>Welcome to VibeCenter!</h1>
+        </section>
+
+
+        <main>
+            <section class="events" id="events-shortcut">
+                <h1>Take a look at our events</h1>
+                <ul>
+                    <li>
+                            <img src="run.png">
+                            <p>VibeSpace Olympics</p>
+                    </li>
+                    <li>
+                            <img src="smile.jpeg">
+                            <p>Say Cheese!</p>
+                    </li>
+                    <li>
+                            <img src="https://images.pexels.com/photos/7046940/pexels-photo-7046940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                            <p>Gaming Tournament</p>
+                    </li>
+                    <li>
+                            <img src="https://images.pexels.com/photos/3992368/pexels-photo-3992368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                            <p>Vibin in the Kitchen</p>
+                    </li>
+                    <li>
+                            <img src="cinema.jpg">
+                            <p>Movie & Snack Night</p>
+                    </li>
+                </ul>
+                <p class="description-event" id="description-event">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa itaque quod vero eos velit aliquid fuga eaque enim, rem dolorem dignissimos, animi, officiis dolorum! Quis culpa molestias optio itaque ducimus.</p>
+                <input type="button" value="REGISTER" id="button-register">
+            </section>
+        </main>
+
+
+        <footer id="about-us">
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=821%20Av.%20Sainte-Croix,%20Saint-Laurent,%20QC%20H4L%203X9+(VibeCenter)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"> <!-- https://www.maps.ie/create-google-map/ -->
+                <a href="https://www.gps.ie/">gps trackers</a>
+            </iframe>
+            <h1>About us</h1>
+            <p class="presentation">VibeCenter is a vibrant activity center dedicated to engaging young people through dynamic programs and events. Our goal is to provide a welcoming space where youth can stay active, have fun, build friendships, and explore new skills. From sports and fitness to creative arts and gaming, VibeCenter offers a variety of activities designed to inspire, energize, and educate.</p>
+            <p id="copyright">&#169;  2024 VibeCenter inc. - All rights reserved</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

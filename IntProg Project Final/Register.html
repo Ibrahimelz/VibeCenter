@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VibeCenter</title>
+        <link rel="icon" href="VBLogo.png" type="image/png"><!-- This puts a logo on the browser tab-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="VBLogo.png">
+            <nav>
+                <a href="Home.html">Home</a>
+                <a href="Home.html#events-shortcut">Events</a>
+                <a href="#registrationID">Register</a>
+                <a href="#about-us">About us</a>
+            </nav>
+        </header>
+
+
+        <section class="welcome animate__animated animate__zoomIn animate__delay-0.99s">
+            <h1>Welcome to VibeCenter!</h1>
+        </section>
+
+
+        <main>
+            <section class="registration" id="registrationID">
+                <h1>Registration</h1>
+                <form>
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone Number">
+                    <select id="events" name="events">
+                        <option value="">Choose from the following</option>
+                        <option value="vibeSpace_olympics">VibeSpace Olympics</option>
+                        <option value="say_cheese">Say Cheese!</option>
+                        <option value="gaming_tournament">Gaming Tournament</option>
+                        <option value="vibin_kitchen">Vibin in the Kitchen</option>
+                        <option value="movie_night">Movie & Snack Night</option>
+                    </select>
+                    <textarea id="chosen_events" readonly placeholder="Chosen event(s)"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+
+        <footer id="about-us">
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=821%20Av.%20Sainte-Croix,%20Saint-Laurent,%20QC%20H4L%203X9+(VibeCenter)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"> <!-- https://www.maps.ie/create-google-map/ -->
+                <a href="https://www.gps.ie/">gps trackers</a>
+            </iframe>
+            <h1>About us</h1>
+            <p class="presentation">VibeCenter is a vibrant activity center dedicated to engaging young people through dynamic programs and events. Our goal is to provide a welcoming space where youth can stay active, have fun, build friendships, and explore new skills. From sports and fitness to creative arts and gaming, VibeCenter offers a variety of activities designed to inspire, energize, and educate.</p>
+            <p id="copyright">&#169;  2024 VibeCenter inc. - All rights reserved</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
